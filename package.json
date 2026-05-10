@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "JSON Server backend for ClassNotes demos and mobile testing",
   "scripts": {
-    "start": "sh -c 'DB_PATH=db.json; if [ -d /data ]; then test -f /data/db.json || cp db.json /data/db.json; DB_PATH=/data/db.json; fi; json-server \"$DB_PATH\" --host 0.0.0.0 --port ${PORT:-3001}'",
+    "start": "sh -c 'mkdir -p public; DB_PATH=db.json; if [ -d /data ]; then test -f /data/db.json || cp db.json /data/db.json; DB_PATH=/data/db.json; fi; json-server \"$DB_PATH\" --host 0.0.0.0 --port ${PORT:-3001}'",
     "start:local": "json-server db.json --host 0.0.0.0 --port 3001"
   },
   "dependencies": {
