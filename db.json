@@ -1,0 +1,36 @@
+{
+  "classes": [
+    {
+      "id": "class-6b",
+      "name": "6º Ano B",
+      "shift": "Tarde"
+    },
+    {
+      "id": "class-7c",
+      "name": "7º Ano C",
+      "shift": "Noite"
+    }
+  ],
+  "observations": [
+    {
+      "id": "obs-04",
+      "student": "Júlia Costa",
+      "className": "7º Ano C",
+      "classId": "class-7c",
+      "text": "Participou bem da discussão em grupo e contribuiu com exemplos próprios.",
+      "createdAt": "2026-05-07T12:00:00.000Z",
+      "updatedAt": "2026-05-07T12:00:00.000Z",
+      "favorite": true
+    },
+    {
+      "id": "obs-05",
+      "student": "Lucas Eduardo Ferreira",
+      "className": "6º Ano B",
+      "classId": "class-6b",
+      "text": "Demonstrou dificuldade inicial, mas concluiu a atividade com apoio.",
+      "createdAt": "2026-05-06T12:00:00.000Z",
+      "updatedAt": "2026-05-06T12:00:00.000Z",
+      "favorite": false
+    }
+  ]
+}
